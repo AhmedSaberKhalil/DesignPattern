@@ -1,0 +1,14 @@
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.AssemblyReference.cache
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+D:\.NET Core\Creational Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.exe
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.AssemblyReference.cache
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.CoreCompileInputs.cache
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
+D:\.NET Core\Design Patterns\DesignPatternProjects\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb

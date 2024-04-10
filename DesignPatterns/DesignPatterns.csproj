@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{063EF553-0D6A-4471-86E6-6A7A7CBC8DE1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <AssemblyName>DesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\CORimplementation\ATM.cs" />
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\CORimplementation\FiftyHandler.cs" />
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\CORimplementation\FiveHundredHandler.cs" />
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\CORimplementation\HundredHandler.cs" />
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\CORimplementation\TwoHundredHandler.cs" />
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\CORimplementation\TwoThousandHandler.cs" />
+    <Compile Include="BehavioralDesignPattern\CORDesignPattern\Models\Handler.cs" />
+    <Compile Include="BehavioralDesignPattern\StrategyDesignPattern\Models\ICompression.cs" />
+    <Compile Include="BehavioralDesignPattern\StrategyDesignPattern\Models\RarCompression.cs" />
+    <Compile Include="BehavioralDesignPattern\StrategyDesignPattern\Models\ZipCompression.cs" />
+    <Compile Include="BehavioralDesignPattern\StrategyDesignPattern\StrategyImplementation\CompressionContext.cs" />
+    <Compile Include="BuilderDesignPattern\BuilderImplementation\ReportDirector.cs" />
+    <Compile Include="BuilderDesignPattern\Models\ExcelReport.cs" />
+    <Compile Include="BuilderDesignPattern\Models\PDFReport.cs" />
+    <Compile Include="BuilderDesignPattern\Models\ReportBuilder.cs" />
+    <Compile Include="BuilderDesignPattern\Models\Report.cs" />
+    <Compile Include="FactoryDesignPattern\FactoryImplementation\CreditCardFactory.cs" />
+    <Compile Include="FactoryDesignPattern\Models\ICreditCard.cs" />
+    <Compile Include="FactoryDesignPattern\Models\MoneyBack.cs" />
+    <Compile Include="FactoryDesignPattern\Models\Platinum.cs" />
+    <Compile Include="FactoryDesignPattern\Models\Titanium.cs" />
+    <Compile Include="FactoryMethodDesignPattern\FactoryMethodImplementation\CreditCardFactory.cs" />
+    <Compile Include="FactoryMethodDesignPattern\Models\ICreditCard.cs" />
+    <Compile Include="FactoryMethodDesignPattern\Models\MoneyBack.cs" />
+    <Compile Include="FactoryMethodDesignPattern\FactoryMethodImplementation\MoneyBackFactory.cs" />
+    <Compile Include="FactoryMethodDesignPattern\Models\Platinum.cs" />
+    <Compile Include="FactoryMethodDesignPattern\FactoryMethodImplementation\PlatinumFactory.cs" />
+    <Compile Include="FactoryMethodDesignPattern\Models\Titanium.cs" />
+    <Compile Include="FactoryMethodDesignPattern\FactoryMethodImplementation\TitaniumFactory.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypeDesignPattern\Models\Employee.cs" />
+    <Compile Include="PrototypeDesignPattern\Models\PermanentEmployee.cs" />
+    <Compile Include="PrototypeDesignPattern\Models\TemporaryEmployee.cs" />
+    <Compile Include="StructuralDesignPattern\AdapterDesignPattern\AdapterImplementation\EmployeeAdapter.cs" />
+    <Compile Include="StructuralDesignPattern\AdapterDesignPattern\AdapterImplementation\ITarget.cs" />
+    <Compile Include="StructuralDesignPattern\AdapterDesignPattern\Models\Employee.cs" />
+    <Compile Include="StructuralDesignPattern\AdapterDesignPattern\Models\ThirdPartyBillingSystem.cs" />
+    <Compile Include="StructuralDesignPattern\DecoratorDesignPattern\DecoratorImplementation\PetrolCar.cs" />
+    <Compile Include="StructuralDesignPattern\DecoratorDesignPattern\Models\BMWCar.cs" />
+    <Compile Include="StructuralDesignPattern\DecoratorDesignPattern\Models\ICar.cs" />
+    <Compile Include="StructuralDesignPattern\FacadeDesignPattern\FacadeImplementation\Order.cs" />
+    <Compile Include="StructuralDesignPattern\FacadeDesignPattern\Models\Invoice.cs" />
+    <Compile Include="StructuralDesignPattern\FacadeDesignPattern\Models\Payment.cs" />
+    <Compile Include="StructuralDesignPattern\FacadeDesignPattern\Models\Product.cs" />
+    <Compile Include="StructuralDesignPattern\FlyweightDesignPattern\FlyweightImplementation\CreditCardFactory.cs" />
+    <Compile Include="StructuralDesignPattern\FlyweightDesignPattern\Models\ICreditCard.cs" />
+    <Compile Include="StructuralDesignPattern\FlyweightDesignPattern\Models\MoneyBack.cs" />
+    <Compile Include="StructuralDesignPattern\FlyweightDesignPattern\Models\Titanium.cs" />
+    <Compile Include="StructuralDesignPattern\ProxyDesignPattern\Models\Employee.cs" />
+    <Compile Include="StructuralDesignPattern\ProxyDesignPattern\Models\ISharedFolder.cs" />
+    <Compile Include="StructuralDesignPattern\ProxyDesignPattern\Models\SharedFolder.cs" />
+    <Compile Include="StructuralDesignPattern\ProxyDesignPattern\ProxyImplementation\SharedFolderProxy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SingltonDeignPattern\Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
